@@ -1,0 +1,23 @@
+{
+  "unversionedId": "contribute",
+  "id": "contribute",
+  "title": "Contribute",
+  "description": "There are few ways to contribute to Go-Architect, for example:",
+  "source": "@site/docs/contribute.md",
+  "sourceDirName": ".",
+  "slug": "/contribute",
+  "permalink": "/docs/contribute",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contribute.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VCS Analysis",
+    "permalink": "/docs/analysis-tools/vcs-analysis"
+  }
+}

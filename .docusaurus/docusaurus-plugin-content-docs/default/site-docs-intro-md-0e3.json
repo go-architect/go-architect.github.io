@@ -1,0 +1,23 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "title": "Introduction",
+  "description": "This section explains why an architecture analysis tool can be useful for software projects, and also the architecture and features of Go-Architect.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Installation",
+    "permalink": "/docs/install"
+  }
+}

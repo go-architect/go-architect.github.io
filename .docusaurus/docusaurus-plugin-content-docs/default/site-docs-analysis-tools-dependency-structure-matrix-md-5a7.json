@@ -1,0 +1,27 @@
+{
+  "unversionedId": "analysis-tools/dependency-structure-matrix",
+  "id": "analysis-tools/dependency-structure-matrix",
+  "title": "Dependency Structure Matrix",
+  "description": "A Dependency Structure Matrix can be used to represent many kind of relations between elements, components, and other entities. We can use a DSM to represent, for example:",
+  "source": "@site/docs/analysis-tools/dependency-structure-matrix.md",
+  "sourceDirName": "analysis-tools",
+  "slug": "/analysis-tools/dependency-structure-matrix",
+  "permalink": "/docs/analysis-tools/dependency-structure-matrix",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/analysis-tools/dependency-structure-matrix.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dependency Graph",
+    "permalink": "/docs/analysis-tools/dependency-graph"
+  },
+  "next": {
+    "title": "Instability & Abstractness",
+    "permalink": "/docs/analysis-tools/instability-and-abstractness"
+  }
+}

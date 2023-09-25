@@ -1,0 +1,12 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureImg {
+  width: 50%;
+  border: 5px solid #01AEDB;
+  border-radius: 50%;
+}

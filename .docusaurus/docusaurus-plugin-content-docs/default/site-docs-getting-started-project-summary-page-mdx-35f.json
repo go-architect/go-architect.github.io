@@ -1,0 +1,27 @@
+{
+  "unversionedId": "getting-started/project-summary-page",
+  "id": "getting-started/project-summary-page",
+  "title": "Project Summary Page",
+  "description": "Project Summary",
+  "source": "@site/docs/getting-started/project-summary-page.mdx",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/project-summary-page",
+  "permalink": "/docs/getting-started/project-summary-page",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/project-summary-page.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Open a GO Project",
+    "permalink": "/docs/getting-started/open-project"
+  },
+  "next": {
+    "title": "Analysis Tools Overview",
+    "permalink": "/docs/getting-started/analysis-tools-overview"
+  }
+}

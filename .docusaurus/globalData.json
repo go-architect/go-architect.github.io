@@ -1,0 +1,98 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "analysis-tools/dependency-coupling",
+              "path": "/docs/analysis-tools/dependency-coupling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "analysis-tools/dependency-graph",
+              "path": "/docs/analysis-tools/dependency-graph",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "analysis-tools/dependency-structure-matrix",
+              "path": "/docs/analysis-tools/dependency-structure-matrix",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "analysis-tools/instability-and-abstractness",
+              "path": "/docs/analysis-tools/instability-and-abstractness",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "analysis-tools/project-metrics",
+              "path": "/docs/analysis-tools/project-metrics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "analysis-tools/vcs-analysis",
+              "path": "/docs/analysis-tools/vcs-analysis",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contribute",
+              "path": "/docs/contribute",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/analysis-tools-overview",
+              "path": "/docs/getting-started/analysis-tools-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/open-project",
+              "path": "/docs/getting-started/open-project",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/project-summary-page",
+              "path": "/docs/getting-started/project-summary-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "install",
+              "path": "/docs/install",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/getting-started",
+              "path": "/docs/category/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/analysis-tools",
+              "path": "/docs/category/analysis-tools",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/fdaines/go-architect/go-architect.github.io/sidebars.js",
+          "contentPath": "/Users/fdaines/go-architect/go-architect.github.io/docs",
+          "contentPathLocalized": "/Users/fdaines/go-architect/go-architect.github.io/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "analysis-tools/dependency-coupling",
+              "id": "analysis-tools/dependency-coupling",
+              "title": "Dependency Coupling",
+              "description": "Dependency Coupling Tool helps us to detect how coupled is our artifact with a specific dependency, that can be an internal, same organization, external or a standard package.",
+              "source": "@site/docs/analysis-tools/dependency-coupling.md",
+              "sourceDirName": "analysis-tools",
+              "slug": "/analysis-tools/dependency-coupling",
+              "permalink": "/docs/analysis-tools/dependency-coupling",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/analysis-tools/dependency-coupling.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Instability & Abstractness",
+                "permalink": "/docs/analysis-tools/instability-and-abstractness"
+              },
+              "next": {
+                "title": "VCS Analysis",
+                "permalink": "/docs/analysis-tools/vcs-analysis"
+              }
+            },
+            {
+              "unversionedId": "analysis-tools/dependency-graph",
+              "id": "analysis-tools/dependency-graph",
+              "title": "Dependency Graph",
+              "description": "The Dependency Graph is a visual representation that illustrates the relationships and dependencies between packages in a software artifact.",
+              "source": "@site/docs/analysis-tools/dependency-graph.md",
+              "sourceDirName": "analysis-tools",
+              "slug": "/analysis-tools/dependency-graph",
+              "permalink": "/docs/analysis-tools/dependency-graph",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/analysis-tools/dependency-graph.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Project Metrics",
+                "permalink": "/docs/analysis-tools/project-metrics"
+              },
+              "next": {
+                "title": "Dependency Structure Matrix",
+                "permalink": "/docs/analysis-tools/dependency-structure-matrix"
+              }
+            },
+            {
+              "unversionedId": "analysis-tools/dependency-structure-matrix",
+              "id": "analysis-tools/dependency-structure-matrix",
+              "title": "Dependency Structure Matrix",
+              "description": "A Dependency Structure Matrix can be used to represent many kind of relations between elements, components, and other entities. We can use a DSM to represent, for example:",
+              "source": "@site/docs/analysis-tools/dependency-structure-matrix.md",
+              "sourceDirName": "analysis-tools",
+              "slug": "/analysis-tools/dependency-structure-matrix",
+              "permalink": "/docs/analysis-tools/dependency-structure-matrix",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/analysis-tools/dependency-structure-matrix.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Dependency Graph",
+                "permalink": "/docs/analysis-tools/dependency-graph"
+              },
+              "next": {
+                "title": "Instability & Abstractness",
+                "permalink": "/docs/analysis-tools/instability-and-abstractness"
+              }
+            },
+            {
+              "unversionedId": "analysis-tools/instability-and-abstractness",
+              "id": "analysis-tools/instability-and-abstractness",
+              "title": "Instability & Abstractness",
+              "description": "Instability and Abstractness are two metrics proposed by \"Uncle Bob\" Martin in 1994,",
+              "source": "@site/docs/analysis-tools/instability-and-abstractness.md",
+              "sourceDirName": "analysis-tools",
+              "slug": "/analysis-tools/instability-and-abstractness",
+              "permalink": "/docs/analysis-tools/instability-and-abstractness",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/analysis-tools/instability-and-abstractness.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Dependency Structure Matrix",
+                "permalink": "/docs/analysis-tools/dependency-structure-matrix"
+              },
+              "next": {
+                "title": "Dependency Coupling",
+                "permalink": "/docs/analysis-tools/dependency-coupling"
+              }
+            },
+            {
+              "unversionedId": "analysis-tools/project-metrics",
+              "id": "analysis-tools/project-metrics",
+              "title": "Project Metrics",
+              "description": "This section provides a deep view of the Project Metrics Tool.",
+              "source": "@site/docs/analysis-tools/project-metrics.md",
+              "sourceDirName": "analysis-tools",
+              "slug": "/analysis-tools/project-metrics",
+              "permalink": "/docs/analysis-tools/project-metrics",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/analysis-tools/project-metrics.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Analysis Tools",
+                "permalink": "/docs/category/analysis-tools"
+              },
+              "next": {
+                "title": "Dependency Graph",
+                "permalink": "/docs/analysis-tools/dependency-graph"
+              }
+            },
+            {
+              "unversionedId": "analysis-tools/vcs-analysis",
+              "id": "analysis-tools/vcs-analysis",
+              "title": "VCS Analysis",
+              "description": "A Version Control System (VCS) is a software tool commonly used to manage changes to a collection of files or documents over time.",
+              "source": "@site/docs/analysis-tools/vcs-analysis.md",
+              "sourceDirName": "analysis-tools",
+              "slug": "/analysis-tools/vcs-analysis",
+              "permalink": "/docs/analysis-tools/vcs-analysis",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/analysis-tools/vcs-analysis.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Dependency Coupling",
+                "permalink": "/docs/analysis-tools/dependency-coupling"
+              },
+              "next": {
+                "title": "Contribute",
+                "permalink": "/docs/contribute"
+              }
+            },
+            {
+              "unversionedId": "contribute",
+              "id": "contribute",
+              "title": "Contribute",
+              "description": "There are few ways to contribute to Go-Architect, for example:",
+              "source": "@site/docs/contribute.md",
+              "sourceDirName": ".",
+              "slug": "/contribute",
+              "permalink": "/docs/contribute",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contribute.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "VCS Analysis",
+                "permalink": "/docs/analysis-tools/vcs-analysis"
+              }
+            },
+            {
+              "unversionedId": "getting-started/analysis-tools-overview",
+              "id": "getting-started/analysis-tools-overview",
+              "title": "Analysis Tools Overview",
+              "description": "Go-Architect includes the following Architecture Analysis Tools.",
+              "source": "@site/docs/getting-started/analysis-tools-overview.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/analysis-tools-overview",
+              "permalink": "/docs/getting-started/analysis-tools-overview",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/analysis-tools-overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Project Summary Page",
+                "permalink": "/docs/getting-started/project-summary-page"
+              },
+              "next": {
+                "title": "Analysis Tools",
+                "permalink": "/docs/category/analysis-tools"
+              }
+            },
+            {
+              "unversionedId": "getting-started/open-project",
+              "id": "getting-started/open-project",
+              "title": "Open a GO Project",
+              "description": "Project List",
+              "source": "@site/docs/getting-started/open-project.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/open-project",
+              "permalink": "/docs/getting-started/open-project",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/open-project.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/category/getting-started"
+              },
+              "next": {
+                "title": "Project Summary Page",
+                "permalink": "/docs/getting-started/project-summary-page"
+              }
+            },
+            {
+              "unversionedId": "getting-started/project-summary-page",
+              "id": "getting-started/project-summary-page",
+              "title": "Project Summary Page",
+              "description": "Project Summary",
+              "source": "@site/docs/getting-started/project-summary-page.mdx",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/project-summary-page",
+              "permalink": "/docs/getting-started/project-summary-page",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/project-summary-page.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Open a GO Project",
+                "permalink": "/docs/getting-started/open-project"
+              },
+              "next": {
+                "title": "Analysis Tools Overview",
+                "permalink": "/docs/getting-started/analysis-tools-overview"
+              }
+            },
+            {
+              "unversionedId": "install",
+              "id": "install",
+              "title": "Installation",
+              "description": "Requirements",
+              "source": "@site/docs/install.md",
+              "sourceDirName": ".",
+              "slug": "/install",
+              "permalink": "/docs/install",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/install.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/category/getting-started"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Introduction",
+              "description": "This section explains why an architecture analysis tool can be useful for software projects, and also the architecture and features of Go-Architect.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Installation",
+                "permalink": "/docs/install"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "doc",
+                "id": "install"
+              },
+              {
+                "type": "category",
+                "label": "Getting Started",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "getting-started/open-project"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/project-summary-page"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/analysis-tools-overview"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "A brief overview for Go-Architect Tools and features.",
+                  "slug": "/category/getting-started",
+                  "permalink": "/docs/category/getting-started"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Analysis Tools",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "analysis-tools/project-metrics"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "analysis-tools/dependency-graph"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "analysis-tools/dependency-structure-matrix"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "analysis-tools/instability-and-abstractness"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "analysis-tools/dependency-coupling"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "analysis-tools/vcs-analysis"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/analysis-tools",
+                  "permalink": "/docs/category/analysis-tools"
+                }
+              },
+              {
+                "type": "doc",
+                "id": "contribute"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

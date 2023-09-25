@@ -1,0 +1,15 @@
+{
+  "title": "Analysis Tools",
+  "slug": "/category/analysis-tools",
+  "permalink": "/docs/category/analysis-tools",
+  "navigation": {
+    "previous": {
+      "title": "Analysis Tools Overview",
+      "permalink": "/docs/getting-started/analysis-tools-overview"
+    },
+    "next": {
+      "title": "Project Metrics",
+      "permalink": "/docs/analysis-tools/project-metrics"
+    }
+  }
+}

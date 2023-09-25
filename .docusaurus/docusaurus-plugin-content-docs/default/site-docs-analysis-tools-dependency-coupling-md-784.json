@@ -1,0 +1,27 @@
+{
+  "unversionedId": "analysis-tools/dependency-coupling",
+  "id": "analysis-tools/dependency-coupling",
+  "title": "Dependency Coupling",
+  "description": "Dependency Coupling Tool helps us to detect how coupled is our artifact with a specific dependency, that can be an internal, same organization, external or a standard package.",
+  "source": "@site/docs/analysis-tools/dependency-coupling.md",
+  "sourceDirName": "analysis-tools",
+  "slug": "/analysis-tools/dependency-coupling",
+  "permalink": "/docs/analysis-tools/dependency-coupling",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/analysis-tools/dependency-coupling.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Instability & Abstractness",
+    "permalink": "/docs/analysis-tools/instability-and-abstractness"
+  },
+  "next": {
+    "title": "VCS Analysis",
+    "permalink": "/docs/analysis-tools/vcs-analysis"
+  }
+}

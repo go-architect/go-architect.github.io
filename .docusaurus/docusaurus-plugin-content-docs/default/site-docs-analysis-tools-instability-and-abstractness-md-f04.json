@@ -1,0 +1,27 @@
+{
+  "unversionedId": "analysis-tools/instability-and-abstractness",
+  "id": "analysis-tools/instability-and-abstractness",
+  "title": "Instability & Abstractness",
+  "description": "Instability and Abstractness are two metrics proposed by \"Uncle Bob\" Martin in 1994,",
+  "source": "@site/docs/analysis-tools/instability-and-abstractness.md",
+  "sourceDirName": "analysis-tools",
+  "slug": "/analysis-tools/instability-and-abstractness",
+  "permalink": "/docs/analysis-tools/instability-and-abstractness",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/analysis-tools/instability-and-abstractness.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dependency Structure Matrix",
+    "permalink": "/docs/analysis-tools/dependency-structure-matrix"
+  },
+  "next": {
+    "title": "Dependency Coupling",
+    "permalink": "/docs/analysis-tools/dependency-coupling"
+  }
+}
