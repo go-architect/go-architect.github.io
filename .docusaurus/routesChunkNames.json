@@ -1,122 +1,79 @@
 {
-  "/__docusaurus/debug-adb": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-1-f-890"
-    }
-  },
-  "/__docusaurus/debug/config-25d": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-1-f-890"
-    }
-  },
-  "/__docusaurus/debug/content-8a8": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-1-f-890"
-    },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-89b": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-1-f-890"
-    }
-  },
-  "/__docusaurus/debug/metadata-5a2": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-1-f-890"
-    }
-  },
-  "/__docusaurus/debug/registry-43f": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-1-f-890"
-    }
-  },
-  "/__docusaurus/debug/routes-b3b": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-1-f-890"
-    }
-  },
   "/markdown-page-461": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---markdown-page-51-f-709"
+      "plugin": "51fbb950"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "393be207"
   },
   "/docs-8d8": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__comp": "1be78505",
     "__context": {
-      "plugin": "plugin---docs-08-c-fd0"
+      "plugin": "08c4bdb5"
     },
-    "versionMetadata": "versionMetadata---docs-935-398"
+    "versionMetadata": "935f2afb"
   },
   "/docs/analysis-tools/dependency-coupling-5d5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-analysis-tools-dependency-coupling-784-1c1"
+    "__comp": "17896441",
+    "content": "7842881c"
   },
   "/docs/analysis-tools/dependency-graph-1a4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-analysis-tools-dependency-graphbff-c55"
+    "__comp": "17896441",
+    "content": "bff1418c"
   },
   "/docs/analysis-tools/dependency-structure-matrix-bce": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-analysis-tools-dependency-structure-matrix-5-a-7-222"
+    "__comp": "17896441",
+    "content": "5a704560"
   },
   "/docs/analysis-tools/instability-and-abstractness-f8f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-analysis-tools-instability-and-abstractnessf-04-641"
+    "__comp": "17896441",
+    "content": "f048aca1"
   },
   "/docs/analysis-tools/project-metrics-244": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-analysis-tools-project-metrics-954-ce6"
+    "__comp": "17896441",
+    "content": "954383cb"
   },
   "/docs/analysis-tools/vcs-analysis-01b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-analysis-tools-vcs-analysis-036-49b"
+    "__comp": "17896441",
+    "content": "03641f9c"
   },
   "/docs/category/analysis-tools-f21": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-analysis-tools-68-c-2e0"
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "68c8927c"
   },
   "/docs/category/getting-started-01f": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-getting-started-315-9c6"
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "3152febb"
   },
   "/docs/contribute-c2f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-contribute-4-ba-821"
+    "__comp": "17896441",
+    "content": "4ba7e5a3"
   },
   "/docs/getting-started/analysis-tools-overview-514": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-analysis-tools-overviewfe-1-f21"
+    "__comp": "17896441",
+    "content": "fe199a3d"
   },
   "/docs/getting-started/open-project-519": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-open-projectbc-8-3a2"
+    "__comp": "17896441",
+    "content": "bc807ee1"
   },
   "/docs/getting-started/project-summary-page-1ff": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-project-summary-page-35-f-803"
+    "__comp": "17896441",
+    "content": "35ff62d2"
   },
   "/docs/install-65c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-installc-4-d-119"
+    "__comp": "17896441",
+    "content": "c4de80f8"
   },
   "/docs/intro-aed": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/-048": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---markdown-page-51-f-709"
+      "plugin": "51fbb950"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "5e9f5e1a"
   }
 }

@@ -7,7 +7,7 @@ sidebar_position: 5
 Dependency Coupling Tool helps us to detect how coupled is our artifact with a specific dependency, that can be an internal, same organization, external or a standard package.
 
 ## A short but very common story
-Imaging that you're working on a Go Project that uses YAML files, in the beginning you decided to use an external package to work with YAML files, and you found that [gopkg.in/yaml.v2](gopkg.in/yaml.v2) fits your requirements.
+Imaging that you're working on a Go Project that uses YAML files, in the beginning you decided to use an external package to work with YAML files, and you found that [gopkg.in/yaml.v2](https://gopkg.in/yaml.v2) fits your requirements.
 
 Few months later, a friend told you about am alternative package (https://github.com/goccy/go-yaml) that seems to be more active in terms of maintainability, so you're thinking in replace `gopkg.in/yaml.v2` with `github.com/goccy/go-yaml`.
 
@@ -27,7 +27,7 @@ The Dependency Coupling Analysis Tool offers a very simple way to analyze how co
 To start the analysis, you need to enter the package in the form at the top of the page.
 <img src="/screenshots/analysis-tools/dependency-coupling/dependency-coupling-03.png" alt="Select Dependency" title="Select Dependency" />
 
-In this example we're going to analyze how coupled is the [arch-go](https://github.com/fdaines/arch-go) tool to the [github.com/spf13/cobra](github.com/spf13/cobra) package.
+In this example we're going to analyze how coupled is the [arch-go](https://github.com/fdaines/arch-go) tool to the [github.com/spf13/cobra](https://github.com/spf13/cobra) package.
 The tool will show the summary result for the coupling analysis, in this case is showing that the calculated coupling level is 11, it means that there are 11 instructions in the project that uses the `Cobra` package.
 <img src="/screenshots/analysis-tools/dependency-coupling/dependency-coupling-04.png" alt="View Dependency Coupling Summary" title="View Dependency Coupling Summary" />
 
