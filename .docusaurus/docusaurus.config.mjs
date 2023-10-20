@@ -7,7 +7,7 @@ export default {
   "title": "Go Architect",
   "tagline": "An Architecture Analysis Tool for Golang Projects.",
   "favicon": "img/go-architect.ico",
-  "url": "https://go-architect.github.io",
+  "url": "https://www.github.io",
   "baseUrl": "/",
   "organizationName": "go-architect",
   "projectName": "go-architect.github.io",
@@ -70,7 +70,7 @@ export default {
           "label": "Documentation"
         },
         {
-          "href": "https://go-architect.github.io",
+          "href": "https://github.com/go-architect/go-architect",
           "label": "GitHub",
           "position": "right"
         }

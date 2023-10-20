@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/go-architect.ico',
 
   // Set the production url of your site here
-  url: 'https://go-architect.github.io',
+  url: 'https://www.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -90,7 +90,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://go-architect.github.io',
+            href: 'https://github.com/go-architect/go-architect',
             label: 'GitHub',
             position: 'right',
           },
