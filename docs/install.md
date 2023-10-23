@@ -36,9 +36,26 @@ make build-windows
 
 
 ## Troubleshooting
+### Wails is not installed correctly
+If you receive a message similar to:
+```bash
+make: wails: No such file or directory
+```
+Then it's probably that your `PATH` environment variable doesn't correctly include your Go bin directory.
+To fix this problem, check that you have the following variables set correctly:
+```bash
+  export GOPATH=<dir_to_your_go_directory> (Usually `~/go`)
+  export GOBIN=$GOPATH/bin
+  export GOSRC=$GOPATH/src
+  export PATH=$PATH:$GOBIN
+  ```
 
-- Set your `~/.goarchitect/environment` file containing the path to your Go binaries.
-  - On MacOS (if Go was installed via Homebrew):
-    ```bash
-    echo $GOBIN:/opt/homebrew/bin > ~/.goarchitect/environment
-    ```
+### GO directory is not set.
+If Go-Architect cannot load the Go executable from your environment, then it will display the following message:
+<img src="/screenshots/install-01.png" alt="Go-Architect cannot load Go" title="Go-Architect cannot load Go" />
+
+To fix this issue, you need to add the path to your Go binaries in the `~/.goarchitect/environment` file.
+- For example, is you use MacOS, and you've installed Go via Homebrew, then you should run:
+  ```bash
+  echo $GOBIN:/opt/homebrew/bin > ~/.goarchitect/environment
+  ```
