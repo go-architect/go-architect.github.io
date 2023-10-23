@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Requirements
 
-- Go v1.19
+- Go v1.19 (https://go.dev/doc/install)
 - GoCyclo (https://pkg.go.dev/github.com/fzipp/gocyclo) for Cyclomatic complexity metrics
 - GoCognit (https://pkg.go.dev/github.com/uudashr/gocognit) for Cognitive complexity metrics
 
