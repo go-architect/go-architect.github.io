@@ -13,27 +13,11 @@ sidebar_position: 2
 ## Installation Process
 
 At the moment, installing Go-Architect can only be done manually, by executing the following commands:
-### MacOS
 ```bash
 git clone https://github.com/go-architect/go-architect
 cd go-architect
-make install-macos
+make install
 ```
-
-### Linux
-```bash
-git clone https://github.com/go-architect/go-architect
-cd go-architect
-make build-linux
-```
-
-### Windows
-```bash
-git clone https://github.com/go-architect/go-architect
-cd go-architect
-make build-windows
-```
-
 
 ## Troubleshooting
 ### Wails is not installed correctly
