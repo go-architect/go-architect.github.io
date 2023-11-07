@@ -24,7 +24,7 @@ when they are easier and cheaper to fix.
 ## Architecture
 Go-Architect features are offered through a User interface created with Wails Project (https://wails.io/).
 
-The User interface uses Go-Architect Library (https://pkg.go.dev/github.com/fdaines/go-architect-lib) to analyze Go Projects and collect architecture metrics.
+The User interface uses Go-Architect Library (https://pkg.go.dev/github.com/go-architect/go-architect-lib) to analyze Go Projects and collect architecture metrics.
 
 To store the created projects and historical data, Go-Architect uses a set of json files saved in the HOME directory of the current user.
 <img src="/screenshots/intro-02.png" alt="Go-Architect Architecture" title="Go-Architect Architecture" width="50%" />

@@ -14,5 +14,5 @@ There are few ways to contribute to Go-Architect, for example:
 
 For all of this cases you can create a ticket or a Pull-Request in the corresponding Github repository:
 - Go-Architect Documentation: https://github.com/go-architect/go-architect.github.io
-- Go-Architect Platform: https://github.com/fdaines/go-architect
-- Go-Architect Backend Library: https://github.com/fdaines/go-architect-lib
+- Go-Architect Platform: https://github.com/go-architect/go-architect
+- Go-Architect Backend Library: https://github.com/go-architect/go-architect-lib
