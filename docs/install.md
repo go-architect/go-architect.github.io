@@ -43,3 +43,13 @@ To fix this issue, you need to add the path to your Go binaries in the `~/.goarc
   ```bash
   echo $GOBIN:/opt/homebrew/bin > ~/.goarchitect/environment
   ```
+
+### Linux Dependencies
+
+In order to install & run wails on Linux, you need to install some dependencies ([reference](https://wails.io/docs/gettingstarted/installation/#platform-specific-dependencies)).
+
+#### Ubuntu
+To install the dependencies on Ubuntu, you should run:
+```bash
+sudo apt-get install build-essential libgtk-3-dev libwebkit2gtk-4.0-dev
+```
