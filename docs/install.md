@@ -34,7 +34,29 @@ To fix this problem, check that you have the following variables set correctly:
   export PATH=$PATH:$GOBIN
   ```
 
-### GO directory is not set.
+### Using a module proxy
+If you receive a message similar to:
+```bash
+Detected OS: Darwin
+go install github.com/wailsapp/wails/v2/cmd/wails@latest
+go: downloading github.com/microcosm-cc/bluemonday v1.0.17
+(..........): read: connection reset by peer
+make[1]: *** [wails-install] Error 1
+make: *** [install] Error 2
+```
+Then, probably you're using a [module proxy](https://go.dev/ref/mod#goproxy-protocol) and your module proxy doesn't have `wails` or `go-architect`.
+The workaround in this case is to reset the `GOPROXY` and `GONOPROXY` environment variables, install go-architect and finally
+restore the environment variables original values, something like:
+```bash
+export GOPROXY=""
+export GONOPROXY=""
+make install
+...(go-architect installation logs)
+export GOPROXY=[ORIGINAL_GOPROXY_VALUE]
+export GONOPROXY=[ORIGINAL_GONOPROXY_VALUE]
+```
+
+### GO directory is not set
 If Go-Architect cannot load the Go executable from your environment, then it will display the following message:
 <img src="/screenshots/install-01.png" alt="Go-Architect cannot load Go" title="Go-Architect cannot load Go" />
 
