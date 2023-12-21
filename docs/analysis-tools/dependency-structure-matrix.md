@@ -13,13 +13,19 @@ A Dependency Structure Matrix can be used to represent many kind of relations be
 Go-Architect uses a Dependency Structure Matrix to represent dependencies between packages in a Go Project.
 <img src="/screenshots/analysis-tools/dsm/dsm-01.png" alt="Dependency Structure Matrix" title="Dependency Structure Matrix" />
 
+There are 2 options to configure how the DSM is displayed:
+- You can select to aggregate the packages according to its nature (package layers) or to show it detailed by package (default view).
+- You also have the option to display weighted values, in that case the DSM will contain a value that represents how much a package depends on another package (or a layer). If this option is not selected, then the DSM will display a value:1 when a package depends on another package.
+
+<img src="/screenshots/analysis-tools/dsm/dsm-02.png" alt="Aggregated Dependency Structure Matrix" title="Aggregated Dependency Structure Matrix" />
+
 ## How to read a DSM
 The following example shows a Dependency Structure Matrix for a 7-element project (Elements `A` to `G`), as you can see, a DSM is a `NxN matrix`
 containing the `N` elements in its rows and columns, if you take a single column (in the example, column for element `B`), each cell in this column
 represents if the corresponding element (element `B`) depends on the element for the corresponding row. The following image shows that element `B` depends on elements `D` and `F`.
 
 You can use the same criteria to verify that element `E` depends on elements `D` and `F`.
-<img src="/screenshots/analysis-tools/dsm/dsm-02.png" alt="DSM basics" title="DSM basics" style={{ width:"40%", marginLeft: "30px", marginTop: "-10px", marginBottom: "30px" }} />
+<img src="/screenshots/analysis-tools/dsm/dsm-03.png" alt="DSM basics" title="DSM basics" style={{ width:"40%", marginLeft: "30px", marginTop: "-10px", marginBottom: "30px" }} />
 
 
 ## Rearrange elements in a DSM
@@ -33,7 +39,7 @@ The following example shows a re-arranged DSM for the same project as the exampl
 - Elements `A` and `B`, as are not used by any other element, are candidates to be the entry points of the project (maybe they contain the main function or a command function).
 - Element `G` is used directly and indirectly by almost all elements in the project, so if we want to update it or replace this dependency, we need to take this task with a lot of care, because we can include some bugs or lose functionalities in the process. In this case we can analyze if using an abstraction first to ensure the update/replace process.
 
-<img src="/screenshots/analysis-tools/dsm/dsm-03.png" alt="Rearranged DSM" title="Rearranged DSM" style={{ width:"40%", marginLeft: "30px", marginTop: "-10px", marginBottom: "30px" }} />
+<img src="/screenshots/analysis-tools/dsm/dsm-04.png" alt="Rearranged DSM" title="Rearranged DSM" style={{ width:"40%", marginLeft: "30px", marginTop: "-10px", marginBottom: "30px" }} />
 
 
 > **Note**
